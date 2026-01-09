@@ -1,0 +1,50 @@
+h2
+{
+    font-size: 25px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    background-color: burlywood;
+    width: 380px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+label
+{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-right: 5px;
+}
+input
+{
+    border: solid 2px #ccc;
+    padding: 5px;
+    border-radius: 8px;
+}
+input::placeholder
+{
+    font-size: 15px;
+}
+button
+{
+    margin: 10px;
+    padding: 5px;
+    width: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color:#f1c893;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover
+{
+    transform: scale(1.2);
+    background-color: #d3a466;
+    color: green;
+}
